@@ -1,0 +1,440 @@
+:root {
+  --primary-color: rgb(153,157,158);
+  --secondary-color: #f0f0f0;
+  --font-family-heading: Arial, sans-serif;
+  --font-family-body: Open Sans, sans-serif;
+}
+.my-work{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-work:hover{
+color: var(--primary-color);
+}
+hr{
+width: 80%;
+text-align: center;
+}
+.my-last-work{
+  color: var(--primary-color);
+  padding: 20%;
+  font-size: 13px;
+}
+h2{
+  font-size: 45px;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  display: none;
+  scroll-behavior: smooth;
+}
+
+
+.popup-content {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#popup-links {
+  list-style: none;
+  padding: 0;
+}
+
+#popup-links li {
+  margin: 5px 0;
+}
+#popup-links li img {
+  margin-right: 10px;
+  width: 300px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+}
+#myButton{
+  border :1px solid ;
+  border-radius: 3rem;
+  background-color: #fff;
+  font-weight :100;
+  overflow: hidden;
+  padding :1rem 2rem;
+  position: relative;
+  text-decoration :none;
+  transition :.2s transform ease-in-out;
+  will-change :transform;
+  z-index :0;
+}
+#myNumber,
+#Email{
+  padding: 20px;
+  text-align: center;
+  background-color:  rgb(28,29,32);
+  border: 1px solid white;
+  color: white;
+  border-radius: 30px;
+  width: 250px;
+  font-size: 17px;
+}
+
+#Email:hover,
+#Email:focus{
+  transform: translate(0, 0);
+  border: 2px solid transparent;
+  background-color: rgb(69,92,233);
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+
+}
+#myNumber:hover,
+#myNumber:focus{
+  transform: translate(0, 0);
+  border: 2px solid transparent;
+  background-color: rgb(69,92,233);
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+
+}
+.My-buttuon{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* #Email::after,#myNumber::after, */
+#myButton::after{
+background-color:  rgb(69,92,233);
+border-radius: 3rem;
+content: '';
+display :block;
+height: 100%;
+width :100%;
+position: absolute;
+left :0;
+top :0;
+transform :translate(-100%, 0) rotate(10deg);
+transform-origin :top left;
+transition :.2s transform ease-out;
+will-change :transform;
+z-index: -1;
+}
+/* #Email:hover:after,#myNumber:hover::after, */
+#myButton:hover::after{
+transform :translate(0, 0);
+}
+/* #Email:hover,#myNumber:hover, */
+#myButton:hover{
+border :2px solid transparent;
+color :white;
+transform :scale(1.05);
+will-change :transform;
+}
+
+.section-four{
+  display: flex;
+  flex-direction: column;
+  gap: 5pc;
+  padding: 20px;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+}
+.card-image{
+  width: 300px;
+  height: 180px;
+}
+.first-cards{
+  display: flex;
+  gap: 30px;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.second-cards{
+  display: flex;
+  gap: 30px;
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.first-cards.visible,
+.second-cards.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.circle-image{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+footer{
+  width: 100%;
+  background-color: rgb(28,29,32);
+}
+.last-button,
+.footer{
+  display: flex;
+  align-items: baseline;
+  padding: 100px;
+  gap: 20px;
+}
+.work-together{
+  color: white;
+  font-size: 100px;
+  display: inline-block;
+  width: 60%;
+}
+.last-button{
+  padding: 0px;
+  margin-left: 6%;
+}
+.footer-area,
+.socials,
+.data{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-area:hover{
+  text-decoration: underline;
+}
+.gray-words,
+.gray-word{
+  color: #555;
+}
+.gray-words{
+  padding: 4pc;
+}
+.data,
+.media{
+  margin: 20px;
+}
+.media,
+.white-para{
+  color: white;
+}
+.get-touch{
+  width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(69, 92, 233);
+    position: absolute;
+    left: 65%;
+    margin-top: -116px
+}
+.get{
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 82px;
+  left: 40px;
+}
+.get-touch:hover{
+  background-color: rgb(44, 69, 230) ;
+}
+
+#earth-globe{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  animation: spin 5s infinite linear;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.earth{
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  border: 10px solid rgb(28, 29, 32);
+}
+.location{
+  position: relative;
+  right: 91%;
+  bottom: -200px;
+  width: 300px;
+  height: 80px;
+  background-color: rgb(28, 29, 32);
+  color: var(--secondary-color);
+  text-align: center;
+  margin: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top-right-radius: 38px;
+  border-bottom-right-radius: 36px;
+}
+.located-para{
+  width: 100px;
+  position: absolute;
+}
+@media (max-width: 540px){
+  .location{
+    display: none;
+  }
+  .nav-head{
+    padding-right: 50px;
+  }
+  .socials,
+  .last-button,
+  .second-cards,
+  .first-cards{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+  .data,
+  .footer-area{
+gap: 0px;
+justify-content: space-evenly;
+  }
+  .footer-area{
+    padding-left: 3px;
+  }
+  .My-buttuon{
+    padding: 10px;
+  }
+  .footer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .work-together{
+    font-size: 30px;
+    width: 100%;
+  }
+  .get-touch{
+    width: 60px;
+    height: 60px;
+    left: 61%;
+    margin-top: -97px;
+  }
+  .get{
+    top: 34px;
+    left: 26px;
+  }
+  hr{
+    margin: 38px;
+  }
+}
+@media (max-width: 720px) and (min-width: 540px) {
+  .first-cards,
+  .second-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .work-together{
+    font-size: 50px;
+  }
+  .footer{
+    align-items: center;
+  }
+  .get-touch{
+    width: 130px;
+    height: 130px;
+    left: 63%;
+  }
+  .get{
+    top: 81px;
+    left: 36px;
+  }
+  .socials,
+  .last-button{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+  }
+  .data,
+  .footer-area{
+gap: 115px;
+justify-content: space-around;
+  }
+  .My-buttuon{
+    padding: 10px;
+  }
+  #myNumber,#Email{
+    width: 350px;
+    margin-top: 20px;
+  }
+  .located-para{
+    width: 57px;
+  }
+}
+@media (min-width: 720px) {
+  .last-button{
+    padding-top: 40px;
+    gap: 0px;
+  }
+  .work-together{
+    font-size: 60px;
+  }
+  .footer{
+    align-items: flex-start;
+  }
+  .get-touch{
+    width: 120px;
+    height: 120px;
+    margin-top: -94px;
+  }
+  .get{
+    top: 73px;
+  }
+  .located-para{
+    width: 57px;
+  }
+}
