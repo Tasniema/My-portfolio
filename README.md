@@ -1,4 +1,4 @@
-- MY portfolio
+<ul- MY portfolio
 
 (https://tasniema.github.io/My-portfolio/index.html)
 
@@ -56,11 +56,13 @@ If you want to run these projects locally, follow these steps:👇🏻
 3- Copy code
 4- git clone (https://github.com/tasniema/portfolio.git).
 
-Navigate to the project directory:
-1- bash
-2- Copy code
-3- cd portfolio
-4- Open the project in your browser:
+<ul>Navigate to the project directory:
+<li>bash</li>
+<li>Copy code</li>
+<li> cd portfolio</li>
+<li>Open the project in your browser:</li>
+
+</ul>
 For example, you can open the index.html file in your browser.
 
 *Contact*
