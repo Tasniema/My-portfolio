@@ -12,13 +12,12 @@ Table of Contents :-
   <li> Huddle</li> 
   <li> Dell</li> 
 
-   
+   </ul>
 <ul>Technologies Used :-
  <li> Installation</li>
  <li> Contact</li>
  <li>   Projects</li>
   
-</ul>
 </ul>
   
 HVAC 
