@@ -33,7 +33,9 @@ Screenshot:<img src ="https://tse3.explicit.bing.net/th?id=OIP.HCRCQv8FE0psxN_i-
 Dell
 Description: 
 A redesign and development project for Dell's website.
-Screenshot:<img src ="https://tse2.mm.bing.net/th?id=OIP.NP12wbK-M0fWeUEOoz18nAHaEZ&pid=Api&P=0&h=220">
+Screenshot:
+
+<img src ="https://tse2.mm.bing.net/th?id=OIP.NP12wbK-M0fWeUEOoz18nAHaEZ&pid=Api&P=0&h=220">
 
 <ul>Technologies Used
 <li>HTML</li>
