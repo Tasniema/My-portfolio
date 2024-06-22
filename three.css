@@ -455,14 +455,14 @@ footer{
   background-color: rgb(69, 92, 233);
   position: absolute;
   left: 70%;
-  margin-top: -89px;
+  margin-top: -116px;
 }
 .get{
   color: white;
   text-decoration: none;
   position: absolute;
-  top: 64px;
-  left: 25px;
+  top: 88px;
+  left: 44px;
 }
 .get-touch:hover{
   background-color: rgb(44, 69, 230) ;
@@ -470,6 +470,9 @@ footer{
 
 .text-decor {
   color: #fff;
+}
+.letter-space{
+  letter-spacing: 1px;
 }
 @media (max-width : 540px){
   .socials,
