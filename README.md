@@ -23,12 +23,16 @@ Table of Contents :-
 HVAC 
 Description:
 A project focused on the design and development of HVAC systems.
-Screenshot:<img src ="https://tse1.mm.bing.net/th?id=OIP.x6QNfP4eBNKOeoYwH23s2QHaE7&pid=Api&P=0&h=220">
+Screenshot:
+
+<img src ="https://tse1.mm.bing.net/th?id=OIP.x6QNfP4eBNKOeoYwH23s2QHaE7&pid=Api&P=0&h=220">
 
 Huddle
 Description: 
 A collaboration platform designed to improve team communication and productivity.
-Screenshot:<img src ="https://tse3.explicit.bing.net/th?id=OIP.HCRCQv8FE0psxN_i-4TcPwHaD3&pid=Api&P=0&h=220">
+Screenshot:
+
+<img src ="https://tse3.explicit.bing.net/th?id=OIP.HCRCQv8FE0psxN_i-4TcPwHaD3&pid=Api&P=0&h=220">
 
 Dell
 Description: 
