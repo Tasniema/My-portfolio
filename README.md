@@ -2,22 +2,29 @@
 
 (https://tasniema.github.io/My-portfolio/index.html)
 
-My Portfolio
 Welcome to my portfolio! This repository contains a collection of my design and development projects. Here, you'll find detailed descriptions, links to live demos, and screenshots of my work.
 
-Table of Contents
+Table of Contents :-
+
 Projects
-HVAC
-Huddle
-Dell
-Technologies Used
-Installation
-Contact
-Projects
-HVAC
+
+   HVAC
+
+   Huddle
+
+   Dell
+   
+Technologies Used :-
+  Installation
+  Contact
+  Projects
+
+
+  
+HVAC 
 Description: A project focused on the design and development of HVAC systems.
 Link: HVAC Project
-Screenshot:
+Screenshot:<img src ="https://tse1.mm.bing.net/th?id=OIP.x6QNfP4eBNKOeoYwH23s2QHaE7&pid=Api&P=0&h=220">
 
 Huddle
 Description: A collaboration platform designed to improve team communication and productivity.
