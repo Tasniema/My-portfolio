@@ -21,42 +21,45 @@ Table of Contents :-
 </ul>
   
 HVAC 
-Description: A project focused on the design and development of HVAC systems.
-Link: HVAC Project
+Description:
+A project focused on the design and development of HVAC systems.
 Screenshot:<img src ="https://tse1.mm.bing.net/th?id=OIP.x6QNfP4eBNKOeoYwH23s2QHaE7&pid=Api&P=0&h=220">
 
 Huddle
-Description: A collaboration platform designed to improve team communication and productivity.
-Link: Huddle Project
-Screenshot:
+Description: 
+A collaboration platform designed to improve team communication and productivity.
+Screenshot:<img src ="https://tse3.explicit.bing.net/th?id=OIP.HCRCQv8FE0psxN_i-4TcPwHaD3&pid=Api&P=0&h=220">
 
 Dell
-Description: A redesign and development project for Dell's website.
-Link: Dell Project
-Screenshot:
+Description: 
+A redesign and development project for Dell's website.
+Screenshot:<img src ="https://tse2.mm.bing.net/th?id=OIP.NP12wbK-M0fWeUEOoz18nAHaEZ&pid=Api&P=0&h=220">
 
-Technologies Used
-HTML
-CSS
-JavaScript
-[Other technologies/frameworks you used]
-Installation
+<ul>Technologies Used
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+
+</ul>
+
+  
 If you want to run these projects locally, follow these steps:
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/tasniema/portfolio.git
+1- Clone the repository:
+2- bash
+3- Copy code
+4- git clone (https://github.com/tasniema/portfolio.git).
+
 Navigate to the project directory:
-bash
-Copy code
-cd portfolio
-Open the project in your browser:
+1- bash
+2- Copy code
+3- cd portfolio
+4- Open the project in your browser:
 For example, you can open the index.html file in your browser.
-Contact
+
+*Contact*
 Feel free to reach out if you have any questions or want to connect!
 
-Email: your-email@example.com
-LinkedIn: Your LinkedIn Profile
-Twitter: @yourhandle
+Email: tasneemjanina@gmail.com
+
 Thank you for visiting my portfolio!
