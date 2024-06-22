@@ -6,20 +6,20 @@ Welcome to my portfolio! This repository contains a collection of my design and 
 
 Table of Contents :-
 
-Projects
+<ul>Projects
 
-   HVAC
+  <li>HVAC</li> 
+  <li> Huddle</li> 
+  <li> Dell</li> 
 
-   Huddle
-
-   Dell
    
-Technologies Used :-
-  Installation
-  Contact
-  Projects
-
-
+<ul>Technologies Used :-
+ <li> Installation</li>
+ <li> Contact</li>
+ <li>   Projects</li>
+  
+</ul>
+</ul>
   
 HVAC 
 Description: A project focused on the design and development of HVAC systems.
