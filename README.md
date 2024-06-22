@@ -6,7 +6,7 @@ Welcome to my portfolio! This repository contains a collection of my design and 
 
 Table of Contents :-
 
-<ul>Projects
+<ul>Projects :-
 
   <li>HVAC</li> 
   <li> Huddle</li> 
