@@ -46,15 +46,6 @@ window.onscroll = function() {
 
 window.onload = function() {
 
-  // let myDivload = document.createElement("div");
-  // myDivload.id = "about-popup";
-  // myDivload.innerHTML = `<div>Contact</div>`;
-
-  // document.body.appendChild(myDivload);
-
-  // setTimeout(() => {
-  //     myDivload.remove();
-  // }, 700);
 
     let messages = ["Contact"];
     let messageIndex = 0;
@@ -95,19 +86,54 @@ window.onload = function() {
 
 };
 
+
+
 document.getElementById('contactForm').addEventListener('submit', function(event) {
+  // Prevent form submission to check validation
   event.preventDefault();
 
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const organization = document.getElementById('organization').value;
-  const services = document.getElementById('services').value;
-  const message = document.getElementById('message').value;
+  // Get form values
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const organization = document.getElementById('organization').value.trim();
+  const services = document.getElementById('services').value.trim();
+  const message = document.getElementById('message').value.trim();
 
-  console.log('Name:', name);
-  console.log('Email:', email);
-  console.log('Organization:', organization);
-  console.log('Services:', services);
-  console.log('Message:', message);
+  // Regular Expressions
+  const nameRegex = /^[a-zA-Z\s]{3,}$/;  // At least 3 characters, only letters and spaces
+  const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; // Basic email validation
 
+  // Validate name
+  if (!nameRegex.test(name)) {
+      alert('Please enter a valid name (at least 3 characters and letters only).');
+      return false;
+  }
+
+  // Validate email
+  if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address.');
+      return false;
+  }
+
+  // Validate message
+  if (message === "") {
+      alert('Please enter your message.');
+      return false;
+  }
+
+  // Optionally validate organization and services if required (can be left blank)
+  if (organization !== "" && !/^[a-zA-Z0-9\s]{3,}$/.test(organization)) {
+      alert('Please enter a valid organization name (at least 3 characters, letters and numbers only).');
+      return false;
+  }
+
+  if (services !== "" && !/^[a-zA-Z0-9\s,]{3,}$/.test(services)) {
+      alert('Please enter a valid services description.');
+      return false;
+  }
+
+  // If all validations pass, you can submit the form
+  alert('Form submitted successfully!');
+  this.submit(); // This will submit the form
 });
+

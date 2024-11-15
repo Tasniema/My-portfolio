@@ -255,6 +255,7 @@ input{
   border: none;
   padding: 20px;
   font-size: 20px;
+  color: white;
 }
 hr{
   color: var(--primary-color);
@@ -333,6 +334,9 @@ button:hover::before {
 }
 .inform{
   text-decoration: none;
+  color: white;
+}
+#contactForm input::placeholder {
   color: white;
 }
 @media (max-width: 540px){

@@ -119,6 +119,29 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// JavaScript to animate letter-by-letter display
+window.onload = function() {
+  const text = "Coded By Tasneem Salim";  // Text you want to animate
+  const element = document.getElementById("navHead");
+  let index = 0;
+
+  // Clear the content initially
+  element.innerHTML = '';
+
+  function addLetter() {
+      // Add the next letter from the text to the element
+      element.innerHTML += text[index];
+      index++;
+
+      // If there are more letters, call this function again after 1 second
+      if (index < text.length) {
+          setTimeout(addLetter, 200);  // 1000 ms = 1 second
+      }
+  }
+
+  // Start the animation
+  addLetter();
+}
 
 
 
@@ -159,3 +182,4 @@ window.addEventListener('scroll', () => {
       }
   });
 });
+

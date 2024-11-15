@@ -10,6 +10,13 @@ body{
   margin: 0%;
   font-family: var( --font-family-heading);
 }
+.nav-head {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  white-space: nowrap; /* Ensure the text doesn't wrap */
+}
+
 header{
   overflow: hidden;
 }
@@ -24,10 +31,10 @@ header{
 .image-container img {
   position: absolute;
   top: 54%;
-  left: 50%;
+  left: 43%;
   transform: translate(-50%, -50%);
-  width: 40%;
-  height: 650px;
+  width: 75%;
+  height: 1000px;
 }
 .the-main{
   display: flex;
