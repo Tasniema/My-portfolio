@@ -1,32 +1,37 @@
 :root {
-  --primary-color: rgb(153,157,158);
+  --primary-color: rgb(153, 157, 158);
   --secondary-color: #f0f0f0;
   --font-family-heading: Arial, sans-serif;
   --font-family-body: Open Sans, sans-serif;
 }
-.my-work{
+
+.my-work {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.my-work:hover{
-color: var(--primary-color);
+
+.my-work:hover {
+  color: var(--primary-color);
 }
-hr{
-width: 80%;
-text-align: center;
+
+hr {
+  width: 80%;
+  text-align: center;
 }
-.my-last-work{
+
+.my-last-work {
   color: var(--primary-color);
   padding: 20%;
   font-size: 13px;
 }
-h2{
+
+h2 {
   font-size: 45px;
 }
 
 .popup {
-  position:fixed;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -38,6 +43,7 @@ h2{
   display: none;
   scroll-behavior: smooth;
 }
+
 .popup-content {
   position: relative;
 }
@@ -48,16 +54,20 @@ h2{
   right: 10px;
   cursor: pointer;
 }
-#popup-image{
+
+#popup-image {
   width: 100%;
 }
+
 #popup-links {
   list-style: none;
   padding: 0;
 }
+
 #popup-links li {
   margin: 5px 0;
 }
+
 #popup-links li img {
   margin-right: 10px;
   width: 300px;
@@ -65,56 +75,65 @@ h2{
   display: block;
   object-fit: cover;
 }
-#myButton{
-  border :1px solid ;
+
+#myButton {
+  border: 1px solid;
   border-radius: 3rem;
   background-color: #fff;
-  font-weight :100;
+  font-weight: 100;
   overflow: hidden;
-  padding :1rem 2rem;
+  padding: 1rem 2rem;
   position: relative;
-  text-decoration :none;
-  transition :.2s transform ease-in-out;
-  will-change :transform;
-  z-index :0;
+  text-decoration: none;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
 }
 
-.My-buttuon{
+.My-buttuon {
   padding: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* #Email::after,#myNumber::after, */
-#myButton::after{
-background-color:  rgb(69,92,233);
-border-radius: 3rem;
-content: '';
-display :block;
-height: 100%;
-width :100%;
-position: absolute;
-left :0;
-top :0;
-transform :translate(-100%, 0) rotate(10deg);
-transform-origin :top left;
-transition :.2s transform ease-out;
-will-change :transform;
-z-index: -1;
-}
-/* #Email:hover:after,#myNumber:hover::after, */
-#myButton:hover::after{
-transform :translate(0, 0);
-}
-/* #Email:hover,#myNumber:hover, */
-#myButton:hover{
-border :2px solid transparent;
-color :white;
-transform :scale(1.05);
-will-change :transform;
+
+.My-buttuon a {
+  background-color: #fff;
+  color: black;
 }
 
-.section-four{
+/* #Email::after,#myNumber::after, */
+#myButton::after {
+  background-color: rgb(69, 92, 233);
+  border-radius: 3rem;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: .2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+/* #Email:hover:after,#myNumber:hover::after, */
+#myButton:hover::after {
+  transform: translate(0, 0);
+}
+
+/* #Email:hover,#myNumber:hover, */
+#myButton:hover {
+  border: 2px solid transparent;
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.section-four {
   display: flex;
   flex-direction: column;
   gap: 5pc;
@@ -123,50 +142,64 @@ will-change :transform;
   z-index: 1;
   position: relative;
 }
-.card-image{
-  width: 100%; /* Match the card's width */
-  height: 100%; /* Match the card's height */
-  object-fit: cover; /* Uniform cropping for images */
+
+.card-image {
+  width: 100%;
+  /* Match the card's width */
+  height: 100%;
+  /* Match the card's height */
+  object-fit: cover;
+  /* Uniform cropping for images */
 }
 
 .first-cards,
-.second-cards{
+.second-cards {
   display: flex;
   gap: 30px;
   opacity: 0;
   transform: translateX(-100%);
   transition: transform 0.5s ease, opacity 0.5s ease;
 }
+
 .first-cards.visible,
 .second-cards.visible {
   opacity: 1;
   transform: translateX(0);
 }
+
 .card {
   position: relative;
   display: inline-block;
-  width: 300px; /* Fixed card width */
-  height: 180px; /* Fixed card height */
+  width: 300px;
+  /* Fixed card width */
+  height: 180px;
+  /* Fixed card height */
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-radius: 10px;
 }
 
 .card img {
-  width: 100%; /* Ensure the image fills the card */
-  height: 100%; /* Scale the image to match the card height */
-  object-fit: cover; /* Crop the image to fit without distortion */
+  width: 100%;
+  /* Ensure the image fills the card */
+  height: 100%;
+  /* Scale the image to match the card height */
+  object-fit: cover;
+  /* Crop the image to fit without distortion */
   transition: transform 0.3s ease;
 }
 
 
 .card:hover {
-  transform: scale(1.05); /* Slightly increases the size of the card */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  transform: scale(1.05);
+  /* Slightly increases the size of the card */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  /* Adds a shadow effect */
 }
 
 .card:hover img {
-  transform: scale(1.1); /* Slight zoom-in effect on the image */
+  transform: scale(1.1);
+  /* Slight zoom-in effect on the image */
 }
 
 /* Hover button styles (as before) */
@@ -185,7 +218,7 @@ will-change :transform;
 
 
 
-.circle-image{
+.circle-image {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -193,62 +226,73 @@ will-change :transform;
 
 /* footer section */
 
-footer{
+footer {
   width: 100%;
-  background-color: rgb(28,29,32);
+  background-color: rgb(28, 29, 32);
 }
+
 .last-button,
-.footer{
+.footer {
   display: flex;
   align-items: baseline;
   padding: 100px;
   gap: 20px;
 }
-.work-together{
+
+.work-together {
   color: white;
   font-size: 100px;
   display: inline-block;
   width: 60%;
 }
-.last-button{
+
+.last-button {
   padding: 0px;
   margin-left: 6%;
 }
+
 .footer-area,
 .socials,
-.data{
+.data {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-.footer-area:hover{
+
+.footer-area:hover {
   text-decoration: underline;
 }
+
 .gray-words,
-.gray-word{
+.gray-word {
   color: #555;
 }
-.gray-words{
+
+.gray-words {
   padding: 4pc;
 }
+
 .data,
-.media{
+.media {
   margin: 20px;
 }
+
 .media,
-.white-para{
+.white-para {
   color: white;
 }
-.get-touch{
+
+.get-touch {
   width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background-color: rgb(69, 92, 233);
-    position: absolute;
-    left: 65%;
-    margin-top: -116px
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgb(69, 92, 233);
+  position: absolute;
+  left: 65%;
+  margin-top: -116px
 }
-.get{
+
+.get {
   color: white;
   text-decoration: none;
   position: absolute;
@@ -256,11 +300,11 @@ footer{
   left: 40px;
 }
 
-.get-touch:hover{
-  background-color: rgb(44, 69, 230) ;
+.get-touch:hover {
+  background-color: rgb(44, 69, 230);
 }
 
-#earth-globe{
+#earth-globe {
   height: 30px;
   width: 30px;
   position: absolute;
@@ -268,11 +312,18 @@ footer{
   left: 10px;
   animation: spin 5s infinite linear;
 }
+
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
-.earth{
+
+.earth {
   width: 50px;
   height: 50px;
   background-color: var(--primary-color);
@@ -281,7 +332,8 @@ footer{
   right: 0px;
   border: 10px solid rgb(28, 29, 32);
 }
-.location{
+
+.location {
   position: relative;
   right: 92%;
   bottom: -200px;
@@ -298,82 +350,99 @@ footer{
   border-top-right-radius: 38px;
   border-bottom-right-radius: 36px;
 }
-.located-para{
+
+.located-para {
   width: 100px;
   position: absolute;
 }
-@media (max-width: 540px){
-  .location{
+
+@media (max-width: 540px) {
+  .location {
     display: none;
   }
-  .nav-head{
+
+  .nav-head {
     padding-right: 50px;
   }
+
   .socials,
   .last-button,
   .second-cards,
-  .first-cards{
+  .first-cards {
     display: grid;
     grid-template-columns: auto;
     gap: 5px;
     justify-content: center;
     align-content: center;
   }
+
   .data,
-  .footer-area{
-gap: 0px;
-justify-content: space-evenly;
+  .footer-area {
+    gap: 0px;
+    justify-content: space-evenly;
   }
-  .footer-area{
+
+  .footer-area {
     padding-left: 3px;
   }
 
-  .footer{
+  .footer {
     padding: 10px;
     display: flex;
     align-items: center;
   }
-  .work-together{
+
+  .work-together {
     font-size: 30px;
     width: 100%;
   }
-  .get-touch{
+
+  .get-touch {
     width: 60px;
     height: 60px;
     left: 61%;
     margin-top: -97px;
   }
-  .get{
+
+  .get {
     top: 34px;
     left: 26px;
   }
-  hr{
+
+  hr {
     margin: 38px;
   }
 }
+
 @media (max-width: 720px) and (min-width: 540px) {
+
   .first-cards,
-  .second-cards{
+  .second-cards {
     display: grid;
     grid-template-columns: auto auto;
   }
-  .work-together{
+
+  .work-together {
     font-size: 50px;
   }
-  .footer{
+
+  .footer {
     align-items: center;
   }
-  .get-touch{
+
+  .get-touch {
     width: 130px;
     height: 130px;
     left: 63%;
   }
-  .get{
+
+  .get {
     top: 81px;
     left: 36px;
   }
+
   .socials,
-  .last-button{
+  .last-button {
     display: grid;
     grid-template-columns: auto;
     gap: 5px;
@@ -381,36 +450,43 @@ justify-content: space-evenly;
     align-content: center;
     margin-top: 50px;
   }
+
   .data,
-  .footer-area{
-gap: 115px;
-justify-content: space-around;
+  .footer-area {
+    gap: 115px;
+    justify-content: space-around;
   }
 
-  .located-para{
+  .located-para {
     width: 57px;
   }
 }
+
 @media (min-width: 720px) {
-  .last-button{
+  .last-button {
     padding-top: 40px;
     gap: 0px;
   }
-  .work-together{
+
+  .work-together {
     font-size: 60px;
   }
-  .footer{
+
+  .footer {
     align-items: flex-start;
   }
-  .get-touch{
+
+  .get-touch {
     width: 120px;
     height: 120px;
     margin-top: -94px;
   }
-  .get{
+
+  .get {
     top: 73px;
   }
-  .located-para{
+
+  .located-para {
     width: 57px;
   }
 }

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More Projects</title>
+  <link rel="stylesheet" href="index-two.css"> <!-- Link to your CSS -->
+  <link rel="stylesheet" href="index.css"> <!-- Link to your CSS -->
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/space.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: white;
+      /* Makes text more visible on a dark background */
+      height: 100vh;
+      overflow: auto;
+      /* Allow scrolling for smaller screens */
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      color: #fff;
+      /* Ensure the heading stands out */
+      font-size: 2em;
+    }
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .project {
+      background-color: rgba(255, 255, 255, 0.1);
+      /* Transparent background for better visibility */
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s, height 0.3s ease-in-out;
+      position: relative;
+      height: 270px;
+      color: #fff;
+      /* Make project text visible */
+    }
+
+    .project:hover {
+      height: 350px;
+    }
+
+    .project-video {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      /* Ensures the video scales nicely */
+    }
+
+    .project-info {
+      padding: 10px;
+      position: relative;
+    }
+
+    .My-buttuon {
+      position: absolute;
+      bottom: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+      width: 200px;
+    }
+
+    .project:hover .My-buttuon {
+      opacity: 1;
+    }
+
+    .project-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .project-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Media Queries */
+
+    /* For devices smaller than 600px (e.g., mobile screens) */
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 1.5em;
+        /* Adjust heading size */
+      }
+
+      .projects-container {
+        padding: 10px;
+        gap: 15px;
+      }
+
+      .project {
+        height: 250px;
+        /* Adjust project height */
+      }
+
+      .project:hover {
+        height: 300px;
+        /* Hover height adjustment for smaller screens */
+      }
+
+      .project-title {
+        font-size: 16px;
+        /* Smaller title font size */
+      }
+
+      .My-buttuon {
+        width: 160px;
+        padding: 1px;
+        top: -21px;
+      }
+    }
+
+    /* For devices larger than 600px but smaller than 1024px (e.g., tablets, small laptops) */
+    @media (min-width: 601px) and (max-width: 1024px) {
+      h1 {
+        font-size: 1.8em;
+        /* Slightly larger heading */
+      }
+
+      .projects-container {
+        gap: 20px;
+      }
+
+      .project {
+        height: 270px;
+      }
+
+      .project:hover {
+        height: 330px;
+      }
+
+      .project-title {
+        font-size: 17px;
+        /* Adjusted title font size */
+      }
+
+      .My-buttuon {
+        width: 180px;
+      }
+    }
+
+    /* For larger screens (e.g., laptops and desktops) */
+    @media (min-width: 1025px) {
+      h1 {
+        font-size: 2.2em;
+        /* Larger heading */
+      }
+
+      .projects-container {
+        padding: 30px;
+        gap: 25px;
+      }
+
+      .project {
+        height: 300px;
+        /* Adjust for larger screens */
+      }
+
+      .project:hover {
+        height: 380px;
+      }
+
+      .project-title {
+        font-size: 20px;
+        /* Larger title font size */
+      }
+
+      .My-buttuon {
+        width: 200px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>More Projects</h1>
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project">
+      <video class="project-video" controls autoplay muted loop>
+        <source src="images/todo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="project-info">
+        <p class="project-title">To Do App</p>
+        <div class="My-buttuon">
+          <a href="images/todo.mp4" class="project-link" id="myButton">View Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="project">
+      <video class="project-video" controls autoplay muted loop>
+        <source src="images/audio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="project-info">
+        <p class="project-title">Music Player</p>
+        <div class="My-buttuon">
+          <a href="https://github.com/Tasniema/audio-player-codealpha-task" class="project-link" id="myButton">View
+            Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 -->
+    <div class="project">
+      <video class="project-video" controls autoplay muted loop>
+        <source src="images/calculator.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="project-info">
+        <p class="project-title">calculator</p>
+        <div class="My-buttuon">
+          <a href="https://github.com/Tasniema/calculater-codealpha-task" class="project-link" id="myButton">View
+            Project</a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 4 -->
+    <div class="project">
+      <video class="project-video" controls autoplay muted loop>
+        <source src="images/image studio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="project-info">
+        <p class="project-title">Images Studio</p>
+        <div class="My-buttuon">
+          <a href="https://github.com/Tasniema/image-gallery-codealpha-task" class="project-link" id="myButton">View
+            Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
