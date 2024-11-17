@@ -2,72 +2,110 @@
 
 [Click me to see a live demo!♥](https://tasniema.github.io/My-portfolio/index.html)
 
-Welcome to my portfolio! This repository contains a collection of my design and development projects. Here, you'll find detailed descriptions, links to live demos, and screenshots of my work.💯
 
-Table of Contents :-✅
+# Tasneem's Portfolio
 
-<ul>Projects :-
+Welcome to **Tasneem's Portfolio**! This project showcases my skills, projects, and experience as a **Freelance & Frontend Web Developer**. It features my recent works, personal details, and ways to connect with me. The portfolio is designed to be visually engaging and responsive across all devices.
 
-  <li>HVAC</li> 
-  <li>Huddle</li> 
-  <li>Dell</li> 
+---
 
-   </ul>
-<ul>Technologies Used :-
- <li> Installation</li>
- <li> Contact</li>
- <li> Projects</li>
-  
-</ul>
-  
-HVAC 📌
-Description:⬇
-A project focused on the design and development of HVAC systems.
-Screenshot:
+## 🔗 Live Demo
 
-<img src ="https://tse1.mm.bing.net/th?id=OIP.x6QNfP4eBNKOeoYwH23s2QHaE7&pid=Api&P=0&h=220">
+You can view the live portfolio here:  
+[**Tasneem's Portfolio**](https://tasniema.github.io/My-portfolio/)
 
-Huddle ✌🏻
-Description: ⬇
-A collaboration platform designed to improve team communication and productivity.
-Screenshot:
+---
 
-<img src ="https://tse3.explicit.bing.net/th?id=OIP.HCRCQv8FE0psxN_i-4TcPwHaD3&pid=Api&P=0&h=220">
+## 📁 Project Structure
 
-Dell 💻
-Description: ⬇
-A redesign and development project for Dell's website.
-Screenshot:
+- **HTML Files**:
+  - `index.html`: The homepage of the portfolio.
+  - `index-about.html`: About page.
+  - `contact-index.html`: Contact page.
+  - `MorWork.html`: Displays additional projects.
 
-<img src ="https://tse2.mm.bing.net/th?id=OIP.NP12wbK-M0fWeUEOoz18nAHaEZ&pid=Api&P=0&h=220">
+- **CSS Files**:
+  - `index.css`: Main styling for the portfolio.
+  - `index-two.css`: Additional styles for specific sections.
 
-<ul>Technologies Used :-
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
+- **JavaScript Files**:
+  - `index.js`: Handles interactive elements like popups, animations, and dynamic updates.
 
-</ul>
+- **Assets**:
+  - Images: Contains personal photos, project previews, and icons.
+  - Icons: Used for various decorative and functional elements.
 
-  
-If you want to run these projects locally, follow these steps:👇🏻
+---
 
-1- Clone the repository:
-2- bash
-3- Copy code
-4- git clone (https://github.com/tasniema/portfolio.git).
+## 🌟 Features
 
-<ul>Navigate to the project directory:
-<li>bash</li>
-<li>Copy code</li>
-<li> cd portfolio</li>
-<li>Open the project in your browser:</li>
+### **Navbar**
+- A dynamic navigation bar with animated icons.
+- Links to **Home**, **About**, and **Contact** pages.
 
-</ul>
-For example, you can open the index.html file in your browser.
+### **Header Section**
+- Displays my personal photo, name, and a tagline: *"Coded By Tasneem Salim."*
+- Includes a location section with an Earth icon.
 
-*Contact*
-Feel free to reach out if you have any questions or want to connect!
+### **Sections**
+1. **Introduction Section**: Highlights my expertise as a **Freelance & Frontend Web Developer**.
+2. **About Section**: Shares my passion for learning new technologies and my approach to design and development.
+3. **Portfolio Section**: Displays my recent works with links to live demos.
+   - Includes interactive cards with hover effects.
+   - Clicking a project opens the project in a new tab.
+4. **Footer Section**:  
+   - Displays contact information.
+   - Includes social links to Instagram, LinkedIn, and GitHub.
 
-Email: tasneemjanina@gmail.com📲
+### **Interactive Elements**
+- **Popup Image**: Clicking on a project dynamically displays the project image with related details.
+- **Hover Animations**: Smooth hover effects on navigation and project cards.
+- **Dynamic Local Time**: Displays the current local time in the footer.
 
-Thank you for visiting my portfolio!❤🤩
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic and structured markup.
+- **CSS3**: For styling and animations.
+- **JavaScript (ES6)**: Interactive functionalities and dynamic content updates.
+
+---
+
+## 🖼️ Featured Projects
+
+### [E-Commerce](https://e-commerce-firstproject.netlify.app/)
+- Design and development of an e-commerce platform.
+
+### [Alarousa Eldemashqia](https://alarousaaldemahaqia.netlify.app/)
+- A beautifully designed and developed bridal shop website.
+
+### [Furniture Website](https://tasniema.github.io/Furniture-Design/)
+- A furniture store design showcasing modern aesthetics.
+
+### [Motorcycle](https://tasniema.github.io/motorcycle/work.html)
+- A dynamic website for motorcycle enthusiasts.
+
+---
+
+## 📧 Contact Information
+
+- **Email**: [tasneemjanina@gmail.com](mailto:tasneemjanina@gmail.com)
+- **Phone**: +2010 9357 4900
+- **Socials**:
+  - [Instagram](https://www.instagram.com/tasnem_salim/)
+  - [LinkedIn](https://www.linkedin.com/in/tasneem-salim-1b1480287/)
+  - [GitHub](https://github.com/Tasniema)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- A browser to view the project (e.g., Chrome, Firefox).
+- A code editor (optional) for customization.
+
+### Steps to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tasniema/My-portfolio.git
