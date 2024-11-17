@@ -1,7 +1,3 @@
-- MY portfolio
-
-[Click me to see a live demo!♥](https://tasniema.github.io/My-portfolio/index.html)
-
 
 # Tasneem's Portfolio
 
